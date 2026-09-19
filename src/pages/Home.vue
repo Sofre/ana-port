@@ -105,10 +105,8 @@ const languages = [
 
         <p class="hero-description">
           I'm Ana, a Marketing student with 3 years of experience
-          in sales at Inditex — Stradivarius. I'm passionate about
-          digital marketing, customer experience, communication
-          and building meaningful connections between brands and
-          their audiences.
+          in sales at Inditex — Stradivarius. I’m passionate about people, communication, 
+          and creating meaningful connections.
         </p>
 
         <div class="hero-actions">
@@ -192,9 +190,10 @@ const languages = [
         <div class="about-large">
 
           <p>
-            I believe great
-            <i>marketing</i>
-            starts with understanding people.
+            I believe successful
+            <i>organizations</i>
+            are built by reconginizing <i>talent,understanding people</i>
+            and creating the <i>right connections</i>
           </p>
 
         </div>
@@ -613,16 +612,9 @@ const languages = [
 
       <div class="footer-links">
 
-        <!-- Replace # with your LinkedIn URL -->
-        <a href="#">
-          LinkedIn
-        </a>
-
        
-        <!-- Replace # with your Instagram URL -->
-        <a href="#">
-          Instagram
-        </a>
+        <p>Number : +389 79 369 061</p>
+       
 
       </div>
 
@@ -871,25 +863,17 @@ const languages = [
 ========================= */
 
 .about-content {
-  display: grid;
-
-  grid-template-columns:
-    1fr
-    1fr;
-
-  gap: 100px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
   margin-top: 70px;
 }
 
+
 .about-large {
-  font-family:
-    'Playfair Display',
-    serif;
-
-  font-size:
-    clamp(40px, 5vw, 68px);
-
+  max-width: 800px;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(40px, 5vw, 68px);
   line-height: 1.05;
 }
 
@@ -898,12 +882,9 @@ const languages = [
 }
 
 .about-copy {
-  max-width: 520px;
-
+  max-width: 650px;
   color: #756e6a;
-
   font-size: 16px;
-
   line-height: 1.9;
 }
 
@@ -1263,9 +1244,11 @@ const languages = [
 
   gap: 5px;
 
-  margin-top: 30px;
+  margin-top: 20px;
+    
 
   padding-top: 20px;
+
 
   border-top:
     1px solid #d6cbc5;

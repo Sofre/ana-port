@@ -37,7 +37,7 @@ defineProps<{
         </span>
 
         <h3>
-          E-Commerce Student
+          Marketing Graduate
         </h3>
 
         <p>
@@ -47,7 +47,7 @@ defineProps<{
       </div>
 
       <a
-        :href="linkedin || '#'"
+        :href="linkedin || 'https://www.linkedin.com/in/ana-stojanova-926244436/'"
         target="_blank"
         rel="noopener noreferrer"
         class="linkedin-arrow"

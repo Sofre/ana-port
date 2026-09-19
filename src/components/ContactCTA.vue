@@ -9,8 +9,8 @@
       <em>Results always.</em>
     </h2>
 
-    <a href="mailto:hello@example.com">
-      hello@example.com
+    <a href="anastojanovaa3@gmail.com">
+      anastojanovaa3@gmail.com
       <span>↗</span>
     </a>
 
