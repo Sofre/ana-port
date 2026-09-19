@@ -47,14 +47,14 @@ defineProps<{
       </div>
 
       <a
-        :href="linkedin || 'https://www.linkedin.com/in/ana-stojanova-926244436/'"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="linkedin-arrow"
-        aria-label="Visit my LinkedIn"
-      >
-        ↗
-      </a>
+  href="https://www.linkedin.com/in/ana-stojanova-926244436/"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="linkedin-arrow"
+  aria-label="Visit my LinkedIn"
+>
+  ↗
+</a>
 
     </div>
 

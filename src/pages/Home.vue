@@ -95,7 +95,7 @@ const languages = [
         <HeroBadge />
 
         <span class="hero-role">
-          MARKETING STUDENT · SALES EXPERIENCE
+          MARKETING GRADUATE · SALES EXPERIENCE
         </span>
 
         <h1>
@@ -657,11 +657,10 @@ const languages = [
 }
 
 .page {
-  max-width: 1280px;
-
-  margin: auto;
-
-  padding: 0 45px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 60px;
 }
 
 
